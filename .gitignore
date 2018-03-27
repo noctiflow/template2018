@@ -6,6 +6,7 @@
 
 # Ignore bundler config.
 /.bundle
+/vendor/bundle
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -13,7 +14,23 @@
 !/log/.keep
 !/tmp/.keep
 
-/node_modules
-/yarn-error.log
+# Ignore Byebug command history file.
+.byebug_history
 
+# misc
+.env
+Procfile
+
+# OS Files
+.DS_Store
+*/.DS_Store
+._.DS_Store
+
+# Text-editor/IDE generated files
+*.sublime-workspace
+*.sublime-project
+/.idea
+*.iml
+
+# Ignore Byebug command history file.
 .byebug_history
